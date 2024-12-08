@@ -3,7 +3,6 @@ import {
   Card,
   CardContent,
   CardDescription,
-  CardFooter,
   CardHeader,
   CardTitle,
 } from "@/components/ui/card";
@@ -146,8 +145,8 @@ export default function Page() {
           </CardContent>
         </Card>
       </div>
-      <div className="details w-full flex-shrink-0 lg:w-[40%] order-1 lg:order-2 flex justify-center">
-        <Image src={"/Rental Summary.png"} alt="Rental Summary" width={492} height={568} className=" lg:w-[492px] h-[568px]"  />
+      <div className="details w-full flex-shrink lg:w-[40%] order-1 lg:order-2 flex justify-center">
+        <Image src={"/Rental Summary.png"} alt="Rental Summary" width={400} height={568} className=" lg:w-[400px] h-[568px]"  />
       </div>
     </div>
   );
